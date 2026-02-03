@@ -11,8 +11,8 @@
 </head>
 
 <body>
-    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0"> <a href="/" class=" link-body-emphasis text-decoration-none">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0 grid-logo"> <a href="/" class=" link-body-emphasis text-decoration-none">
                 <svg xmlns="http://www.w3.org/2000/svg" width="70" height="64" viewBox="0 0 70 64" fill="none">
                         <path d="M47.25 17.6H22.75C20.817 17.6 19.25 19.0327 19.25 20.8V43.2C19.25 44.9673 20.817 46.4 22.75 46.4H47.25C49.183 46.4 50.75 44.9673 50.75 43.2V20.8C50.75 19.0327 49.183 17.6 47.25 17.6Z" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M19.25 27.2H50.75" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,48 +21,58 @@
                 </a>
                 <h5 class="nav-title">Grid</h5>
             </div>
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link px-2 link-secondary">How it works</a></li>
-                <li><a href="#" class="nav-link px-2">Who we are</a></li>
-                <li><a href="#" class="nav-link px-2">What we do</a></li>
-                <li><a href="#" class="nav-link px-2">Contact us</a></li>
-            </ul>
-            <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-outline-primary me-2">Sign In</button></div> 
-    </header>
-    <!-- <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="64" viewBox="0 0 70 64" fill="none">
-                        <path d="M47.25 17.6H22.75C20.817 17.6 19.25 19.0327 19.25 20.8V43.2C19.25 44.9673 20.817 46.4 22.75 46.4H47.25C49.183 46.4 50.75 44.9673 50.75 43.2V20.8C50.75 19.0327 49.183 17.6 47.25 17.6Z" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M19.25 27.2H50.75" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M29.75 46.4V27.2" stroke="#6C5CE7" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                        <a href="/"><img src="" />Grid</a>
-                    </li>
-                    <li><a href="">How it works</a></li>
-                    <li><a href="">Who we are</a></li>
-                    <li><a href="">What we do</a></li>
-                    <li><a href="">Contact us</a></li>
+            <div class="nav-mid">
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">How it works</a></li>
+                    <li><a href="#" class="nav-link px-2 purple">Who we are</a></li>
+                    <li><a href="#" class="nav-link px-2 purple">What we do</a></li>
+                    <li><a href="#" class="nav-link px-2 purple">Contact us</a></li>
                 </ul>
-            </nav>
-        </div>
-    </header> -->
+            </div>
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-dark me-2 rounded-5">Sign In</button></div> 
+    </header>
     <section class="image-grid">
-        <h1>
-            Combine fine images
-        </h1>
-        <h3>
-            To represent a product
-        </h3>
-
+        <div class="text-center my-5">
+            <h1 class="combine-image">
+                Combine <span class="fine-pink">fine</span> images
+            </h1>
+            <h1 class="represent-product">
+                To represent a product
+            </h1>
+        </div>
+    </section>
+    <section class="learn-more">
+        <h1>Delivering good designs since 1958🚚💨</h1>
+        <p>We’re the first multi-purpose design kit solutions for businesses. We help you bridge
+        gaps between your layouts, templates and developers to empower all involved.</p>
+        <div class="ccardRow">
+            <div class="ccard">
+                <h3>Support</h3>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <button class="learnMore btn btn-light">Learn more</button>
+            </div>
+            <div class="ccard">
+                <h3>Sales growth</h3>
+                <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                <button class="learnMore btn btn-light">Learn more</button>
+            </div>
+            <div class="ccard">
+                <h3>Components-driven</h3>
+                <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <button class="learnMore btn btn-light">Learn more</button>
+            </div>
+            <div class="ccard">
+                <h3>Swap the icon</h3>
+                <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+                <button class="learnMore btn btn-light">Learn more</button>
+            </div>
+        </div>
     </section>
     <section class="pricing">
         <h3>Affordable pricing</h3>
         <h5>Bill me monthly . yearly</h5>
-        <div>
+        <div class="">
             <p>Personal</p>
             <h4>Free</h4>
             <ul>
@@ -97,31 +107,7 @@
             <button></button>
         </div>
     </section>
-    <section class="learn-more">
-        <h5>Delivering good designs since 1958</h5>
-        <p>We’re the first multi-purpose design kit solutions for businesses. We help you bridge
-        gaps between your layouts, templates and developers to empower all involved.</p>
-        <div>
-            <p>Support</p>
-            <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
-            <button></button>
-        </div>
-        <div>
-            <p>Sales growth</p>
-            <p>Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
-            <button></button>
-        </div>
-        <div>
-            <p>Components-driven</p>
-            <p>Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
-            <button></button>
-        </div>
-        <div>
-            <p>Swap the icon</p>
-            <p>You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
-            <button></button>
-        </div>
-    </section>
+    
     <footer>
         <div>
         <p>FOLLOW US</p>
@@ -147,6 +133,12 @@
         <div>
             <p>KEEP IN TOUCH</p>
             <!-- form -->
+            <div class="contact-form">
+                <input type="text" class="" placeholder="Your name">
+                <input type="email" class="" placeholder="E-mail">
+                <textarea name="" class="" placeholder="Leave your message"></textarea>
+                <button class="">SEND</button>
+            </div>
         </div>
     </footer>
 </body>

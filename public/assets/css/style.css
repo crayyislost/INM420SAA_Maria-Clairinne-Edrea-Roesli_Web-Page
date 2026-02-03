@@ -4,6 +4,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0px !important;
 }
 
 .nav-title {
@@ -17,10 +18,45 @@ body {
 }
 
 .image-grid {
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    background-image: url("/assets/images/hero blob.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+}
+
+.nav-link {
+    color: #6C5CE7 !important;
+}
+
+@media screen and (max-width:360px){
+    .nav-mid{
+        display: none;
+    }
+}
+
+.combine-image{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: 96px;
+}
+
+.represent-product{
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.fine-pink {
+    color: #D63031;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1 h2 h3 h4 h5 p {
@@ -28,4 +64,49 @@ h1 h2 h3 h4 h5 p {
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
+}
+
+.learn-more > h1 {
+    font-weight: bold;
+}
+
+.learn-more > p {
+    font-size: 24px;
+}
+
+.learn-more {
+    margin-left: 100px;
+}
+
+.ccard{
+    display: flex;
+    flex-direction: column;
+    width: 270px;
+    margin: 30px 50px 30px 0;
+}
+
+.ccard > p {
+    font-size: 18px;
+}
+
+.ccard > h3 {
+    font-weight: bold;
+}
+
+.ccardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.learnMore{
+    max-width: 120px;
+    color: #6C5CE7 !important;
+    filter: drop-shadow(0 0 0.07rem gray)
+}
+
+.pricing {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
 }
